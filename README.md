@@ -24,8 +24,6 @@ The core idea is to use a large, powerful "Teacher" LLM (like Cohere's Command R
 2.  **Study Session (Fine-Tuning):** The Student SLM is fine-tuned on this custom dataset using Parameter-Efficient Fine-Tuning (LoRA), allowing it to become an expert without the need for massive computational resources.
 3.  **Final Exam (Evaluation):** The Teacher LLM acts as an impartial judge, scoring the Student's performance on a hold-out test set to provide a quantitative measure of its new expertise.
 
-*[Optional: Create a simple workflow diagram in a tool like Excalidraw or PowerPoint, save it as an image in your project, and embed it here with this line: `![Workflow Diagram](path/to/your/diagram.png)`]*
-
 ---
 
 ### **Key Features** ✨
